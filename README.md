@@ -1,4 +1,19 @@
-# THIS FORK'S CHANGES TO GYM-TORCS
+## Requirements
+
+This project runs on the TORCS racing simulator and the gym_torcs interface, which are not included in this repository because of their size.
+
+- TORCS (The Open Race Car Simulator): https://torcs.sourceforge.net
+- gym_torcs (original project this fork is based on): https://github.com/ugo-nama-kun/gym_torcs
+
+## Best result
+
+Corkscrew track: best lap 1:48.64, 0 damage, 0 pit stops.
+
+![Best lap result](best%20lap.jpeg)
+
+## How to run
+
+Install TORCS and gym_torcs, copy these files into the gym_torcs folder, start TORCS, then run start_car.ps1.
 
 ```torcs_jm_par.py``` is the main racing file used. A list of options and possible parameters can be found inside as comments.
 
